@@ -51,3 +51,4 @@ Your posts should look something like this:
 
 Douglas Little
 
+Doug Little
