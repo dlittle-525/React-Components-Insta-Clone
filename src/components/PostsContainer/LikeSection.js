@@ -4,6 +4,9 @@
 import React from "react";
 
 const LikeSection = props => {
+    console.log("Like Section: ", props)
+
+
   return (
     <div>
     <div
@@ -11,7 +14,7 @@ const LikeSection = props => {
       key="likes-icons-container"
     >
       <div className="like-section-wrapper">
-        <i className="far fa-heart" />
+        <i className="far fa-heart" onClick={props.addLikes}> </i>
       </div>
       <div className="like-section-wrapper">
         <i className="far fa-comment" />
